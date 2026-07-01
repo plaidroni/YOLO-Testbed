@@ -21,12 +21,14 @@ I trained both yolo11n and yolo11s on 300 epochs as a further test. it seems tha
 <img width="300" height="400" alt="download (1)" src="https://github.com/user-attachments/assets/19e22477-d5b3-44be-8fca-c95ff35defff" />
 
 Performance metrics @ 300 epochs:
+
 Yolo11s: ``Completion time: 0.283 hr(Tesla T4), Params: 9.42M, Size: 19.2MB, mAP50: 0.924, mAP50-95: 0.718, Precision: 0.915, Recall: 0.0.891``
+
 Yolo11n: ``Completion time: 0.256 hr(Tesla T4), Params: 2.58M, Size: 5.5MB, mAP50: 0.92, mAP50-95: 0.721, Precision: 0.878, Recall: 0.908``
 
-From the metrics above, the performance from Yolo11s and Yolo11n were basically indistinguishable, even though Yolo11n had a nearly 4x smaller size.
+From the metrics above, the **performance from Yolo11s and Yolo11n were basically indistinguishable**, even though Yolo11n had a nearly 4x smaller size.
 
-It is worth noting however, that the training/validation images were not the same between tests, due to the script that split them. I also believe that with this small of a training and validation dataset, and even on 300 epochs, the model started to memorize specific orientations and images of the pens and pencils. I noticed that when moving the pens into different orientations, and lighting conditions, it would recognize them better than others.
+It is worth noting however, that the training/validation images were not the same between tests, due to the script that randomly split them. I also believe that with this small of a training and validation dataset, and even on 300 epochs, the model started to memorize specific orientations and images of the pens and pencils. I noticed that when moving the pens into different orientations, and lighting conditions, it would recognize them better than others.
 
 The mechanical pencil class, being nearly identical to the red pen class, save for a transparent body struggled a lot on the precision and recognition portion.
 
