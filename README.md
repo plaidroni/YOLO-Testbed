@@ -15,7 +15,7 @@ The first model was not a great success. It struggled with the low-lighting, dif
 <img width="426" height="240" alt="Video Project" src="https://github.com/user-attachments/assets/192d4b8a-e1be-444e-b001-fdf4864ebeca" />
 <img width="300" height="400" alt="download" src="https://github.com/user-attachments/assets/724a0f09-6da3-4d3d-98d2-5cd19f1bf695" />
 
-I trained both yolo11n and yolo11s on 300 epochs as a further test. it seems that yolo11n on 300 epochs performed significantly better with lighting conditions, and varied backgrounds.
+I trained both yolo11n and yolo11s on 300 epochs as a further test.
 
 <img width="480" height="240" alt="download (2)" src="https://github.com/user-attachments/assets/14f68ea4-947f-4eb0-840d-5070e42e7605" />
 <img width="300" height="400" alt="download (1)" src="https://github.com/user-attachments/assets/19e22477-d5b3-44be-8fca-c95ff35defff" />
