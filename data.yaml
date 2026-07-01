@@ -1,0 +1,12 @@
+path: data/content/data
+train: train/images
+val: validation/images
+nc: 7
+names:
+- Blue Pen
+- Cypres Pen (Purple)
+- MESA Multicolored pen
+- Purple Pen
+- Red Mechanical Pencil
+- Red Pen
+- Silver Pen

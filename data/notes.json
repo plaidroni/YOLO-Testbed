@@ -1,0 +1,37 @@
+{
+  "categories": [
+    {
+      "id": 0,
+      "name": "Blue Pen"
+    },
+    {
+      "id": 1,
+      "name": "Cypres Pen (Purple)"
+    },
+    {
+      "id": 2,
+      "name": "MESA Multicolored pen"
+    },
+    {
+      "id": 3,
+      "name": "Purple Pen"
+    },
+    {
+      "id": 4,
+      "name": "Red Mechanical Pencil"
+    },
+    {
+      "id": 5,
+      "name": "Red Pen"
+    },
+    {
+      "id": 6,
+      "name": "Silver Pen"
+    }
+  ],
+  "info": {
+    "year": 2026,
+    "version": "1.0",
+    "contributor": "Label Studio"
+  }
+}
